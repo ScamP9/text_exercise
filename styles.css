@@ -1,0 +1,373 @@
+html {
+    font-family: Montserrat;
+    background-color: whitesmoke;
+    margin: 0.5% 2% 0.5% 2%;
+}
+.menu_top {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.mainContainer li{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 11px;
+    margin: 0 0.5% 0 0.5%;
+}
+.mainContainer li:hover {
+    cursor: pointer;
+    color: red;
+}
+.geoContainer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.cityContainer {
+    display: flex;
+    font-weight: 600;
+    font-size: 9px;
+}
+.city {
+    padding-left: 10%;
+    color: darkgrey;
+}
+.city:hover {
+    cursor: pointer;
+    color: red;
+}
+.emailContainer {
+    display: flex;
+    font-weight: 600;
+    font-size: 9px;
+    margin-right: 15%;
+    align-items: center;
+}
+.email {
+    margin-left: 5%;
+    color: darkgrey;
+}
+.email:hover {
+    color: red;
+}
+.connectionContainer {
+    display: flex;
+    flex-grow: 0.4;
+    justify-content: center;
+}
+.phoneNumber {
+    display: flex;
+    margin-right: 5%;
+}
+.phone {
+    font-weight: bold;
+    font-size: 13px;
+    align-self: center;
+}
+.socialNetwork {
+    align-self: center;
+    display: flex;
+}
+.SN_container {
+    margin: 0 10% 0 40%;
+    cursor: pointer;
+}
+.menu_bottom {
+    display: flex;
+    margin-top: 2%;
+    flex-grow: 10;
+    justify-content: space-between;
+}
+.startContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.0175;
+    align-self: center;
+}
+.burgerAndLogo {
+    display: flex;
+}
+.burger:hover {
+    cursor: pointer;
+}
+.imgLogo:hover {
+    cursor: pointer;
+}
+.HoursOfOperationAndAddress {
+    color: darkgrey;
+    font-size: 10px;
+    margin-top: 15%;
+}
+.searchMenu {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.middleContainer {
+    display: flex;
+    flex-grow: 0.835;
+}
+.search {
+    border: none;
+    background-color: whitesmoke;
+    height: 40px;
+    width: 150px;
+    resize: none;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Montserrat;
+
+}
+.search::placeholder {
+    color: darkgrey;
+    font-family: Montserrat;
+}
+.submit {
+    border: none;
+    background-color: whitesmoke;
+    align-content: center;
+}
+.submit:hover {
+    cursor: pointer;
+}
+.endContainer {
+    display: flex;
+    flex-grow: 0.135;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user_menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.burgerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.burgerMenu li{
+    font-family: Montserrat;
+    list-style-type: none;
+}
+.burgerMenu li:hover {
+    color: red;
+    cursor: pointer;
+}
+.bodyMainContainer {
+    display: flex;
+    flex-grow: 3;
+}
+.bodyStartContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.bodyCenterContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.6;
+}
+.falseSlider {
+    width: 100%;
+}
+.falseSlider_red {
+    background-color: #E02323;
+    width: 930px;
+    height: 300px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.boat img{
+    width: 80%;
+    position: relative;
+    left: 130px;
+    bottom: 52.8px;
+    z-index: 10;
+}
+.fisherman img {
+    position: relative;
+    z-index: 12;
+    bottom: 379px;
+    width: 36%;
+    left: 570px;
+}
+.descriptions {
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: aliceblue;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.descriptions h1{
+    color: white;
+    font-size: 40px;
+    margin: 1% 0 10% 0;
+
+}
+.descriptions #line_throw_price{
+    font-size: 25px;
+    margin: 0;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+.descriptions button {
+    border-radius: 15px;
+    border: solid 1px white;
+    background-color: #E02323;
+    color: white;
+    width: 100px;
+    height: 22px;
+    font-size: 8px;
+}
+.descriptions button:hover {
+    cursor: pointer;
+    color: black;
+    border: solid 1px black;
+}
+.button_arrow {
+    margin-top: 20%;
+}
+.advertisingContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.order {
+    background-color: gainsboro;
+    color: black;
+    border-radius: 15px;
+    position: relative;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.order h2 {
+    margin-top: 0;
+}
+.deadlines {
+    background-color: gold;
+    color: black;
+    border-radius: 15px;
+    position: relative;
+    font-size: 10px;
+    display: flex;
+    align-items: start;
+}
+.deadlines .interiorContainer {
+    margin-top: 8%;
+}
+.deadlines img{
+    width: 80%;
+    position: relative;
+    top: 92px;
+    left: 23px;
+    border-radius: 15px;
+}
+.guarantee {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.guarantee img {
+    position: relative;
+    top: 0;
+    left: 62px;
+    z-index: 5;
+    width: 30%;
+}
+.guarantee .imgBoat {
+    display: flex;
+}
+.guarantee .interiorContainer h2{
+    margin: 12% 0 0 0;
+}
+.imgBoat p {
+    margin-left: 5%;
+}
+.stock {
+    background-color: lawngreen;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    font-size: 10px;
+    display: flex;
+}
+.stock .interiorContainer {
+    margin-top: 5%;
+}
+.stock img {
+    width: 90%;
+    position: relative;
+    top: 46px;
+    left: 12px;
+}
+.interiorContainer {
+    margin-left: 5%;
+    z-index: 10;
+
+}
+.bodyEndContainer {
+    display: flex;
+    flex-grow: 3.7;
+}
+.calc {
+    background-color: white;
+    position: absolute;
+    bottom: 57%;
+    padding: 0.4% 0.4% 0.4% 0.4%;
+    border-radius: 10px;
+}
+.phoneInPhone {
+    position: absolute;
+    right: 25px;
+    top: 65px;
+}
+.phone_order img{
+    position: relative;
+    border-bottom-right-radius: 12px;
+    top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: "Montserrat";
+src: url("fonts/Montserrat.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
